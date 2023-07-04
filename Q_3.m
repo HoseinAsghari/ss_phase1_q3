@@ -13,7 +13,7 @@ I1=im2gray(marilyn);
 I2=rgb2gray(einstein);
 %% compute fft2 of the gray images
 fft_marilyn=fft2(I1);
-fft_einstein=fft2(I2);
+fft_einstein=fft2(I2); 
 %% zero centered scaling
 fft_einstein_shift=fftshift(fft_einstein);
 fft_marilyn_shift=fftshift(fft_marilyn);
