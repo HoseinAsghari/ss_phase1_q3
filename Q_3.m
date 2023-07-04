@@ -17,7 +17,7 @@ fft_einstein=fft2(I2);
 %% zero centered scaling
 fft_einstein_shift=fftshift(fft_einstein); 
 fft_marilyn_shift=fftshift(fft_marilyn);
-%% low pass gaussian filter for marilyn
+%% low pass gaussian filter for marilyn 
 [x,y]=meshgrid(0:n1-1,0:m1-1);
 cut_off=7;%our cut_off frequency of sigma in gaussian distribution
 lpf=exp(-((x-(m1/2)).^2 + (y-(n1/2)).^2)./((2*cut_off).^2));
