@@ -31,9 +31,9 @@ lpf=exp(-((x-(m1/2)).^2 + (y-(n1/2)).^2)./((2*cut_off).^2));
 %     end
    %% low pass gaussian filter for einstein
    hpf=1-lpf;
-   %% define a circulat filter
+   %% define a circulat filter 
 [x,y]=meshgrid(-n1/2:n1/2 -1,-m1/2:m1/2 -1);
-k=80e-4;
+k=80e-4; 
 HPF=k.*sqrt((x.^2 + y.^2));
 HPF=fftshift(HPF);
  LPF=1-HPF;
