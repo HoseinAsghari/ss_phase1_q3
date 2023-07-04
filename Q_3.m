@@ -1,6 +1,6 @@
 clc;clear all;
 %% read our images
-marilyn=imread('marilyn.jpg');
+marilyn=imread('marilyn.jpg'); 
 einstein=imread('einstein.jpg');
 [m1,n1,c1]=size(marilyn);%get size of matrix related to image
 [m2,n2,c2]=size(einstein);%get size of matrix related to image
