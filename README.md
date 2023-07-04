@@ -1,1 +1,3 @@
 # ss_phase1_q3
+as you know hybrid images are base on Optometry of humans.
+ \\important point in code of this question is that elated images to Marlilyne was 2D and we use rgb2gray command instead of im2gray and we increase size of einstein image by adding some  1 elements by using command of vertcat to make Marilyne size and einstine size alike. then we chose Gaussian filter with cut_off fequency of 7. and finally a an impotant point in this question that was "display range " in imshow function and finally we chose [20,290].\\ 
