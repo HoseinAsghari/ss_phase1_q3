@@ -15,7 +15,7 @@ I2=rgb2gray(einstein);
 fft_marilyn=fft2(I1);
 fft_einstein=fft2(I2); 
 %% zero centered scaling
-fft_einstein_shift=fftshift(fft_einstein);
+fft_einstein_shift=fftshift(fft_einstein); 
 fft_marilyn_shift=fftshift(fft_marilyn);
 %% low pass gaussian filter for marilyn
 [x,y]=meshgrid(0:n1-1,0:m1-1);
