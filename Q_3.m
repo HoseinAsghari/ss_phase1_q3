@@ -7,9 +7,9 @@ einstein=imread('einstein.jpg');
 % einstein's size is less than marilyn's so bt upsampling with ones we make
 % einstein larger
 x=ones(1,n2,c2);
-einstein=vertcat(einstein,x);
+einstein=vertcat(einstein,x); 
 %% convert them from rgb to gray
-I1=im2gray(marilyn);
+I1=im2gray(marilyn); 
 I2=rgb2gray(einstein);
 %% compute fft2 of the gray images
 fft_marilyn=fft2(I1);
