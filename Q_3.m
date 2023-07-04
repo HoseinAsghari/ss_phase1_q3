@@ -44,7 +44,7 @@ x_einstein=ifft2(ifftshift((fft_einstein_shift.*hpf.*HPF)));
 figure(1)
 subplot(1,3,1)
 imshow(marilyn)
-title('marilyn')
+title('marilyn') 
 subplot(1,3,2)
 imshow(einstein)
 title('einstein')
