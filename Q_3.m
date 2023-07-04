@@ -20,7 +20,7 @@ fft_marilyn_shift=fftshift(fft_marilyn);
 %% low pass gaussian filter for marilyn 
 [x,y]=meshgrid(0:n1-1,0:m1-1);
 cut_off=7;%our cut_off frequency of sigma in gaussian distribution
-lpf=exp(-((x-(m1/2)).^2 + (y-(n1/2)).^2)./((2*cut_off).^2));
+lpf=exp(-((x-(m1/2)).^2 + (y-(n1/2)).^2)./((2*cut_off).^2)); 
 % d=zeros(m1,n1);
 % lpf=zeros(m1,n1);
 %     for i=1:m1
